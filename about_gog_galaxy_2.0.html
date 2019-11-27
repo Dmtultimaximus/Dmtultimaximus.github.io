@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style_about_gog_galaxy_2.0.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GOG Galaxy 2.0</title>
+    <link rel="shortcut icon" href="img/gog_galaxy_picture.png" type="image/x-icon">
+</head>
+<body>
+<div class="content">
+    <div class="section__video">
+        <video class="glx_video" src="img/About_gog_galaxy_2.0/cover-768-1920_003.mp4"
+                               data-src="img/About_gog_galaxy_2.0/cover-768-1920_003.mp4" loop="loop" muted="muted"
+                               autoplay="autoplay" playsinline="playsinline">
+                        </video>
+    </div>
+    <div class="selection_info">
+        <div class="gog_galaxy_selection">
+            <div class="gog_galaxy_selection_content">
+                <img src="img/About_gog_galaxy_2.0/galaxy-logo-fa7b4b2d.png" alt="">
+                <h1>GOG GALAXY 2.0</h1>
+                <p class="gog_galaxy_selecion_text">
+                            All your games and friends in one place.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="glx_selection_button">
+        <div class="glx_section_text">
+            <p>Connect GOG GALAXY 2.0 with multiple platforms and unite all your games and friends scattered across them in one powerful app.</p>
+            <p>Be among the first to try the new GOG GALAXY 2.0! You'll need a GOG account to participate in the BETA.</p>
+        </div>
+    </div>
+</div>
+<div class="content_bot">
+    <div class="container">
+        <div class="FAQ">
+            <h1>FAQ</h1>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">
+                        What is GOG GALAXY 2.0 and why should I use it?
+                    </div>
+                    <div class="collapsible-body">
+                        <p>GOG GALAXY 2.0 is an application, thanks to which you’ll be able to combine multiple libraries into one and connect with your friends across all gaming platforms, consoles included. If your games and gaming buddies are scattered between different launchers and platforms, this is a solution for you! Keeping track of all achievements earned by you and your friends, hours played, and games owned across platforms has never been this easy. And the application is entirely free, all you need is a GOG account to use it.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        How can I add my games to GOG GALAXY 2.0?
+                    </div>
+                    <div class="collapsible-body">
+                        <p>In GOG GALAXY 2.0 you’re adding games through official and community created integrations. By connecting platforms, the data about the games you own is automatically imported to the application. On top of that you will also be able to manually add single games that are not connected to any platform. </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        Will GOG GALAXY 2.0 show all my games, or only those I have installed on my PC?
+                    </div>
+                    <div class="collapsible-body">
+                        <p>Yes, GOG GALAXY 2.0 will show all your games from connected PC and console platforms... even if they are not currently installed.</p>
+                    </div>
+                </li>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript">
+    M.AutoInit();
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+    });
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        dots:false,
+        autoplayTimeout:5000,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+</script>
+<!--<script>-->
+<!--    $(document).ready(function(){-->
+<!--        var game_scr =$('#scren_section').offset();-->
+<!--        var window_scr =$('#window_scrolable_img').offset();-->
+<!--        var window_gog_scr =$('#scren_section_2').offset();-->
+<!--        var window_gog_galxy_scr =$('#window_scrolable_img_library').offset();-->
+<!--        $(window).on('scroll',function(){-->
+<!--            var scr = $(this).scrollTop();-->
+<!--            var h_game_scr = scr-game_scr.top;-->
+<!--            var h_window_scr = scr-window_scr.top;-->
+<!--            var h_window_gog_scr = scr-window_gog_scr.top;-->
+<!--            var h_window_gog_galxy_scr = scr-window_gog_galxy_scr.top;-->
+
+<!--            $('#game_scren_1').css('backgroundPositionY', h_game_scr*0.2);-->
+<!--            $('#game_scren_2').css('backgroundPositionY', h_game_scr*0.3);-->
+<!--            $('#game_scren_3').css('backgroundPositionY', h_game_scr*0.1);-->
+<!--            $('#window_scrolable_img').css('backgroundPositionY', h_window_scr*0.07);-->
+<!--            $('#window_scrolable_img_library').css('backgroundPositionY', h_window_gog_galxy_scr*0.07);-->
+<!--            $('#window_scren_1').css('backgroundPositionY', h_window_gog_scr*0.025);-->
+<!--            $('#window_scren_2').css('backgroundPositionY', h_window_gog_scr*0.05);-->
+<!--            $('#window_scren_3').css('backgroundPositionY', h_window_gog_scr*0.035);-->
+<!--        })-->
+<!--    })-->
+<!--</script>-->
+</body>
+</html>
