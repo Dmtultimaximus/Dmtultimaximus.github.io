@@ -1,0 +1,95 @@
+.content_bot {
+  min-height: 500px;
+  width: 100%;
+  overflow: hidden;
+  background: url("../img/About_gog_galaxy_2.0/bg-bottom-1920-ad4eec1a.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  min-height: 700px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: url("../img/About_gog_galaxy_2.0/bg-bottom-1920-ad4eec1a.jpg");
+}
+.content .section__video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 50%;
+  right: 0;
+}
+.content .section__video .glx_video {
+  height: 100%;
+  transform: translateX(-50%);
+}
+.content .selection_info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.content .selection_info .gog_galaxy_selection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.content .selection_info .gog_galaxy_selection .gog_galaxy_selection_content {
+  color: #ffffff;
+  font-size: 32px;
+}
+.content .selection_info .gog_galaxy_selection .gog_galaxy_selection_content img {
+  max-width: 65px;
+}
+.content .selection_info .gog_galaxy_selection .gog_galaxy_selection_content h1 {
+  font-size: 32px;
+  margin: 0;
+}
+.content .selection_info .gog_galaxy_selection .gog_galaxy_selection_content p {
+  font-weight: lighter;
+  margin: 0;
+}
+.content .glx_selection_button {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.content .glx_selection_button .glx_section_text {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.FAQ {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.collapsible {
+  border-right: transparent;
+  border-left: transparent;
+  border-radius: 20px;
+}
+.collapsible li {
+  color: #ffffff;
+}
+.collapsible li .collapsible-header {
+  background-color: rgba(192, 108, 199, 0.3);
+  border-bottom: transparent;
+  border-radius: 20px;
+}
+.collapsible li .collapsible-body {
+  border-radius: 20px;
+  background-color: rgba(192, 108, 199, 0.1);
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style_about_gog_galaxy_2.0.css.map */
